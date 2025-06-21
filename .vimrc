@@ -135,6 +135,9 @@ nnoremap confe :e $MYVIMRC<CR>
 " Press Esc followed by confr to reload ~/.vimrc file
 nnoremap confr :source $MYVIMRC<CR>
 
+" Write with sudo
+nnoremap wsudo :w !sudo tee %<CR>
+
 " Textmate holdouts
 
 " Formatting
