@@ -124,6 +124,8 @@ nnoremap <F1> :set invfullscreen<CR>
 vnoremap <F1> :set invfullscreen<CR>
 
 " Remap Function Keys
+" Remap F9 to toggle paste mode
+nnoremap <F9> :set paste!<CR>
 " Remap F12 to toggle line number
 nnoremap <F12> :set nonumber!<CR>
 
