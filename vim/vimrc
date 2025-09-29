@@ -152,6 +152,14 @@ set listchars=tab:▸\ ,eol:¬
 " Or use your leader key + l to toggle on/off
 map <leader>l :set list!<CR> " Toggle tabs and EOL
 
+" Fix home/end key in all modes
+map <esc>OH <home>
+cmap <esc>OH <home>
+imap <esc>OH <home>
+map <esc>OF <end>
+cmap <esc>OF <end>
+imap <esc>OF <end>
+
 " Color scheme (terminal)
 set t_Co=256
 set background=dark
